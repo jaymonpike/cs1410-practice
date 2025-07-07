@@ -311,6 +311,45 @@ ex0603/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0603.dir/build.make CMakeFiles/ex0603.dir/build
 .PHONY : ex0603/fast
 
+#=============================================================================
+# Target rules for targets named ex0701
+
+# Build rule for target.
+ex0701: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex0701
+.PHONY : ex0701
+
+# fast build rule for target.
+ex0701/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0701.dir/build.make CMakeFiles/ex0701.dir/build
+.PHONY : ex0701/fast
+
+#=============================================================================
+# Target rules for targets named ex0801
+
+# Build rule for target.
+ex0801: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex0801
+.PHONY : ex0801
+
+# fast build rule for target.
+ex0801/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0801.dir/build.make CMakeFiles/ex0801.dir/build
+.PHONY : ex0801/fast
+
+#=============================================================================
+# Target rules for targets named ex0802
+
+# Build rule for target.
+ex0802: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex0802
+.PHONY : ex0802
+
+# fast build rule for target.
+ex0802/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0802.dir/build.make CMakeFiles/ex0802.dir/build
+.PHONY : ex0802/fast
+
 ex0101.o: ex0101.cpp.o
 .PHONY : ex0101.o
 
@@ -647,6 +686,78 @@ ex0603.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0603.dir/build.make CMakeFiles/ex0603.dir/ex0603.cpp.s
 .PHONY : ex0603.cpp.s
 
+ex0701.o: ex0701.cpp.o
+.PHONY : ex0701.o
+
+# target to build an object file
+ex0701.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0701.dir/build.make CMakeFiles/ex0701.dir/ex0701.cpp.o
+.PHONY : ex0701.cpp.o
+
+ex0701.i: ex0701.cpp.i
+.PHONY : ex0701.i
+
+# target to preprocess a source file
+ex0701.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0701.dir/build.make CMakeFiles/ex0701.dir/ex0701.cpp.i
+.PHONY : ex0701.cpp.i
+
+ex0701.s: ex0701.cpp.s
+.PHONY : ex0701.s
+
+# target to generate assembly for a file
+ex0701.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0701.dir/build.make CMakeFiles/ex0701.dir/ex0701.cpp.s
+.PHONY : ex0701.cpp.s
+
+ex0801.o: ex0801.cpp.o
+.PHONY : ex0801.o
+
+# target to build an object file
+ex0801.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0801.dir/build.make CMakeFiles/ex0801.dir/ex0801.cpp.o
+.PHONY : ex0801.cpp.o
+
+ex0801.i: ex0801.cpp.i
+.PHONY : ex0801.i
+
+# target to preprocess a source file
+ex0801.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0801.dir/build.make CMakeFiles/ex0801.dir/ex0801.cpp.i
+.PHONY : ex0801.cpp.i
+
+ex0801.s: ex0801.cpp.s
+.PHONY : ex0801.s
+
+# target to generate assembly for a file
+ex0801.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0801.dir/build.make CMakeFiles/ex0801.dir/ex0801.cpp.s
+.PHONY : ex0801.cpp.s
+
+ex0802.o: ex0802.cpp.o
+.PHONY : ex0802.o
+
+# target to build an object file
+ex0802.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0802.dir/build.make CMakeFiles/ex0802.dir/ex0802.cpp.o
+.PHONY : ex0802.cpp.o
+
+ex0802.i: ex0802.cpp.i
+.PHONY : ex0802.i
+
+# target to preprocess a source file
+ex0802.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0802.dir/build.make CMakeFiles/ex0802.dir/ex0802.cpp.i
+.PHONY : ex0802.cpp.i
+
+ex0802.s: ex0802.cpp.s
+.PHONY : ex0802.s
+
+# target to generate assembly for a file
+ex0802.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0802.dir/build.make CMakeFiles/ex0802.dir/ex0802.cpp.s
+.PHONY : ex0802.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -693,6 +804,9 @@ help:
 	@echo "... ex0601"
 	@echo "... ex0602"
 	@echo "... ex0603"
+	@echo "... ex0701"
+	@echo "... ex0801"
+	@echo "... ex0802"
 	@echo "... main"
 	@echo "... ex0101.o"
 	@echo "... ex0101.i"
@@ -736,6 +850,15 @@ help:
 	@echo "... ex0603.o"
 	@echo "... ex0603.i"
 	@echo "... ex0603.s"
+	@echo "... ex0701.o"
+	@echo "... ex0701.i"
+	@echo "... ex0701.s"
+	@echo "... ex0801.o"
+	@echo "... ex0801.i"
+	@echo "... ex0801.s"
+	@echo "... ex0802.o"
+	@echo "... ex0802.i"
+	@echo "... ex0802.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
